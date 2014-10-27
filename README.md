@@ -4,7 +4,7 @@ Simple PHP Web Crawler
 
 ###WHAT
 
->This Crawler scans the content of a page pushes found URl's on the stack to keep crawling
+>This Crawler scans the content of a page pushes found URL's on the stack to keep crawling
 and calls a abstract method to get specific links of the content.
 To create a new Crawler just extend from the WebCrawler like Mp3WebCrawler or ImageWebCrawler
 and adjust the Patterns.
